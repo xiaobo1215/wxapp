@@ -2,6 +2,16 @@
 
 # 小程序分享  如何构建less
 
+
+说在前边
+
+npm install creatwxapp-cli -g
+
+然后执行
+
+creatWxappTp init wxapp(这个随便写 想叫什么叫什么)
+
+
 1: 
 
 从git上clone 模板后
