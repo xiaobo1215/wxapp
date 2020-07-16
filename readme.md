@@ -4,17 +4,25 @@
 
 
 说在前边
+node 版本 高一点
 
 npm install creatwxapp-cli -g
 
-然后执行
-
 creatWxappTp init wxapp(这个随便写 想叫什么叫什么)
 
-如果 命令行没有  creatWxappTp 这个命令 
+如果报错 或者出现 奇异问题 可能是 没有将 creatWxappTp写入到 环境变量里边 
+
+举例：
+mac  
+1：vim ~/.bash_profile   
+2：alias creatWxappTp='/Users/xx/xxx/xxxx/node_modules/creatwxapp-cli/index.js'  安装完后看一下 全局安装到什么地方了
+3：source ~/.bash_profile
+
+win 就...吧
+
+或者 ：
 
 那就 这么搞 npm install creatwxapp-cli --save-dev    node_modules/.bin/creatWxappTp init wxapp
-
 
 1: 
 
