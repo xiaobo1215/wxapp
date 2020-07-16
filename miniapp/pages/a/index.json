@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tc-c": "/components/c1/index",
+    "tc-ct": "/components/c2/index"
+  }
+}

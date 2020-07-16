@@ -1,0 +1,28 @@
+{
+    "pages":[
+        "pages/a/index",
+        "pages/b/index",
+        "pages/c/index",
+        "pages/d/index"
+    ],
+    "window":{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle":"black"
+    },
+    "navigateToMiniProgramAppIdList": [
+        ""
+    ],
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "permission": {
+        "scope.userLocation": {
+            "desc": "位置信息将用于展示您所在城市参加活动的品牌"
+        }
+    },
+    "_dbcomponent":[
+        "components/c1/index",
+        "components/c2/index"
+    ]
+}
